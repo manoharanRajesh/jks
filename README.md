@@ -10,6 +10,12 @@ Jenkins Docker image with [Docker](https://docs.docker.com)  based on
   - disable the jenkins cli over remoting
   - disable scripts security for the job dsl scripts
 
+### Jenkins & IDEA
+https://intellij-support.jetbrains.com/hc/en-us/community/posts/208383725-Browsing-jenkins-groovy-code
+I got the jenkins jar and source jar from - http://repo.jenkins-ci.org/releases/org/jenkins-ci/main/jenkins-core
+In IDEA you add the jars in the module dependencies: http://www.jetbrains.com/idea/webhelp/configuring-module-dependencies-and-libraries.html.
+
+
 ## Getting started
 
 ```shell
