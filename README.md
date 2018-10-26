@@ -15,6 +15,10 @@ https://intellij-support.jetbrains.com/hc/en-us/community/posts/208383725-Browsi
 I got the jenkins jar and source jar from - http://repo.jenkins-ci.org/releases/org/jenkins-ci/main/jenkins-core
 In IDEA you add the jars in the module dependencies: http://www.jetbrains.com/idea/webhelp/configuring-module-dependencies-and-libraries.html.
 
+## Windows socket 
+
+set COMPOSE_CONVERT_WINDOWS_PATHS=1
+-v //var/run/docker.sock:/var/run/docker.sock
 
 ## Getting started
 
