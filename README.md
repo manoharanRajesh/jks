@@ -18,6 +18,8 @@ In IDEA you add the jars in the module dependencies: http://www.jetbrains.com/id
 ## Windows socket 
 
 set COMPOSE_CONVERT_WINDOWS_PATHS=1
+
+
 -v //var/run/docker.sock:/var/run/docker.sock
 
 ## Getting started
